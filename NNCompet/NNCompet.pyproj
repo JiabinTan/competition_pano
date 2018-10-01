@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4bf35f51-e247-426e-b6c3-5ae163472c73</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NNCompet.py</StartupFile>
+    <StartupFile>Tb_show_loss.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NNCompet.py" />
+    <Compile Include="Image_preprocessing.py" />
+    <Compile Include="Tb_show_loss.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
