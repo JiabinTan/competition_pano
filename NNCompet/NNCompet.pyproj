@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4bf35f51-e247-426e-b6c3-5ae163472c73</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tb_show_loss.py</StartupFile>
+    <StartupFile>model.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Image_preprocessing.py" />
-    <Compile Include="Tb_show_loss.py">
+    <Compile Include="eval.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="reader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test.py" />
+    <Compile Include="train.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
